@@ -7,6 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ComputerInfo.WMI;
+using ComputerInfo.Set;
+using ComputerInfo.Define;
 
 namespace ComIn1
 {
@@ -15,6 +18,15 @@ namespace ComIn1
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            Upload.UploadSetting();
+
+
+            Console.WriteLine(Disk.GetVolumeCount);
+            Console.WriteLine(Disk.DISK_Volumes);
         }
     }
 }
