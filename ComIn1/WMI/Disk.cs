@@ -13,19 +13,24 @@ namespace ComputerInfo.WMI
     {
 
         private static List<DriveInfo> volumes = new List<DriveInfo>();
+        public static DriveInfo[] driver = DriveInfo.GetDrives();
 
         public static void GainDisk()
         {
-            DriveInfo[] driver = DriveInfo.GetDrives();
+
             for (int i = 0; i < driver.Length; i++)
             {
 
                 if (driver[i].IsReady)
+                {
                     volumes.Add(driver[i]);
+                }
+
+
             }
         }
 
-        public static Int32 GetVolumeCount => volumes.Count;
+        public static int GetVolumeCount => volumes.Count;
         public static List<DriveInfo> DISK_Volumes { get; } = volumes;
     }
 }

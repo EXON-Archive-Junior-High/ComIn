@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using ComputerInfo.WMI;
 using ComputerInfo.Set;
 using ComputerInfo.Define;
+using System.IO;
 
 namespace ComIn1
 {
@@ -25,8 +26,6 @@ namespace ComIn1
             Upload.UploadSetting();
 
 
-            Console.WriteLine(Disk.GetVolumeCount);
-            Console.WriteLine(Disk.DISK_Volumes);
         }
     }
 }

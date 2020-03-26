@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29911.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComIn1", "ComIn1\ComIn1.csproj", "{F2CFAF6A-2924-4F2A-A6B2-0171D5ACA414}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComIn", "ComIn1\ComIn.csproj", "{F2CFAF6A-2924-4F2A-A6B2-0171D5ACA414}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

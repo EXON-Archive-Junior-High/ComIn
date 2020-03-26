@@ -14,19 +14,17 @@ namespace ComputerInfo.Set
         {
             //Define CPU
             CPU.GainCPU();
-            Untill.SetCPU();
+            
 
             //Define GPU
             GPU.GainGPU();
-            Untill.SetGPU();
 
             //Define RAM
             RAM.GainRAM();
-            Untill.SetRAM();
 
             //Define Disk
             Disk.GainDisk();
-            Untill.SetDisk();
+            //Untill.SetDisk();
         }
     }
 }
