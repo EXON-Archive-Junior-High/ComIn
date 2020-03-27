@@ -25,7 +25,7 @@ namespace ComIn1
         {
             Upload.UploadSetting();
 
-
+            Console.WriteLine(Untill.CPU_Current_Clock);
         }
     }
 }
