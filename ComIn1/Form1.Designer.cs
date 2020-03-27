@@ -28,13 +28,49 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.CPU_Button = new System.Windows.Forms.Button();
+            this.GPU_Button = new System.Windows.Forms.Button();
+            this.RAM_Button = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // CPU_Button
+            // 
+            this.CPU_Button.Location = new System.Drawing.Point(12, 12);
+            this.CPU_Button.Name = "CPU_Button";
+            this.CPU_Button.Size = new System.Drawing.Size(101, 65);
+            this.CPU_Button.TabIndex = 0;
+            this.CPU_Button.Text = "CPU";
+            this.CPU_Button.UseVisualStyleBackColor = true;
+            this.CPU_Button.Click += new System.EventHandler(this.CPU_Button_Click);
+            // 
+            // GPU_Button
+            // 
+            this.GPU_Button.Location = new System.Drawing.Point(12, 83);
+            this.GPU_Button.Name = "GPU_Button";
+            this.GPU_Button.Size = new System.Drawing.Size(101, 65);
+            this.GPU_Button.TabIndex = 1;
+            this.GPU_Button.Text = "GPU";
+            this.GPU_Button.UseVisualStyleBackColor = true;
+            this.GPU_Button.Click += new System.EventHandler(this.GPU_Button_Click);
+            // 
+            // RAM_Button
+            // 
+            this.RAM_Button.Location = new System.Drawing.Point(12, 154);
+            this.RAM_Button.Name = "RAM_Button";
+            this.RAM_Button.Size = new System.Drawing.Size(101, 65);
+            this.RAM_Button.TabIndex = 2;
+            this.RAM_Button.Text = "RAM";
+            this.RAM_Button.UseVisualStyleBackColor = true;
+            this.RAM_Button.Click += new System.EventHandler(this.RAM_Button_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.RAM_Button);
+            this.Controls.Add(this.GPU_Button);
+            this.Controls.Add(this.CPU_Button);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -43,6 +79,10 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.Button CPU_Button;
+        private System.Windows.Forms.Button GPU_Button;
+        private System.Windows.Forms.Button RAM_Button;
     }
 }
 

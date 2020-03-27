@@ -25,7 +25,44 @@ namespace ComIn1
         {
             Upload.UploadSetting();
 
-            Console.WriteLine(Untill.CPU_Current_Clock);
+            Console.WriteLine();
+        }
+
+        private static void ButtonVisible(string buttonType, bool b)
+        {
+            switch (buttonType) 
+            {
+                case "CPU":
+                    break;
+
+                case "GPU":
+                    break;
+
+                case "RAM":
+                    break;
+
+                case "All":
+                    break;
+            }
+
+        }
+
+        private void CPU_Button_Click(object sender, EventArgs e)
+        {
+            ButtonVisible("All", false);
+            ButtonVisible("CPU", true);
+        }
+
+        private void GPU_Button_Click(object sender, EventArgs e)
+        {
+            ButtonVisible("All", false);
+            ButtonVisible("GPU", true);
+        }
+
+        private void RAM_Button_Click(object sender, EventArgs e)
+        {
+            ButtonVisible("All", false);
+            ButtonVisible("RAM", true);
         }
     }
 }

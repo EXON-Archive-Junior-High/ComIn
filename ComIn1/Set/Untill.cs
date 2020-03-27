@@ -10,17 +10,17 @@ namespace ComputerInfo.Set
 {
     public class Untill
     {
-        public static DriveInfo[] allDrives = DriveInfo.GetDrives();
+        public DriveInfo[] allDrives = DriveInfo.GetDrives();
 
-        public static string CPU_Name;
-        public static string CPU_Current_Clock;
-        public static string CPU_Voltage;
-        public static string CPU_L2Cache_Size;
-        public static string CPU_L3Cache_Size;
-        public static string CPU_Core_Count;
-        public static string CPU_Thread_Count;
+        public string CPU_Name;
+        public string CPU_Current_Clock;
+        public string CPU_Voltage;
+        public string CPU_L2Cache_Size;
+        public string CPU_L3Cache_Size;
+        public string CPU_Core_Count;
+        public string CPU_Thread_Count;
 
-        public static void SetCPU()
+        public void SetCPU()
         {
             CPU_Name = CPU.CPU_Name;
             CPU_Current_Clock = String.Format("{0:F2} Ghz", (CPU.CPU_Current_Clock / 1000f));
@@ -31,20 +31,20 @@ namespace ComputerInfo.Set
             CPU_Thread_Count = CPU.CPU_Thread_Count.ToString();
         }
 
-        public static string company = GPU.GPU_Adapter_Compatiability;
-        public static string GPU_Manufacturer = GPU.GPU_Adapter_Compatiability;
-        public static string GPU_Caption = GPU.GPU_Caption;
-        public static string GPU_Video_Processor_Name = GPU.GPU_Video_Processor;
-        public static string GPU_RAM = String.Format("{0:F2} GB", (Convert.ToInt64(GPU.GPU_Adapter_RAM) / 1024f / 1024f / 1024f));
-        public static string GPU_Current_Refresh_Rate = GPU.GPU_Current_Refresh_Rate + "hz";
-        public static string GPU_Max_Refresh_Rate = GPU.GPU_Max_Refresh_Rate + "hz";
-        public static string GPU_Min_Refresh_Rate = GPU.GPU_Min_Refresh_Rate + "hz";
-        public static string GPU_Current_Resolution = GPU.GPU_Video_Mode_Description;
-        public static string GPU_Driver_Version = GPU.GPU_Driver_Version;
+        public string company = GPU.GPU_Adapter_Compatiability;
+        public string GPU_Manufacturer = GPU.GPU_Adapter_Compatiability;
+        public string GPU_Caption = GPU.GPU_Caption;
+        public string GPU_Video_Processor_Name = GPU.GPU_Video_Processor;
+        public string GPU_RAM = String.Format("{0:F2} GB", (Convert.ToInt64(GPU.GPU_Adapter_RAM) / 1024f / 1024f / 1024f));
+        public string GPU_Current_Refresh_Rate = GPU.GPU_Current_Refresh_Rate + "hz";
+        public string GPU_Max_Refresh_Rate = GPU.GPU_Max_Refresh_Rate + "hz";
+        public string GPU_Min_Refresh_Rate = GPU.GPU_Min_Refresh_Rate + "hz";
+        public string GPU_Current_Resolution = GPU.GPU_Video_Mode_Description;
+        public string GPU_Driver_Version = GPU.GPU_Driver_Version;
         public static DateTime driverTime = DateTime.ParseExact(GPU.GPU_Driver_Date, "yyyyMMddHHmmss", null);
-        public static string GPU_Driver_Date = String.Format("{0}/{1}/{2}", driverTime.Month, driverTime.Day, driverTime.Year);
+        public string GPU_Driver_Date = String.Format("{0}/{1}/{2}", driverTime.Month, driverTime.Day, driverTime.Year);
 
-        public static void SetGPU()
+        public void SetGPU()
         {
             company = GPU.GPU_Adapter_Compatiability;
             GPU_Manufacturer = GPU.GPU_Adapter_Compatiability;
@@ -60,15 +60,15 @@ namespace ComputerInfo.Set
             GPU_Driver_Date = String.Format("{0}/{1}/{2}", driverTime.Month, driverTime.Day, driverTime.Year);
         }
 
-        public static Double Pysical_Size = (RAM.RAM_Pysical_Size / 1024f / 1024f / 1024f);
-        public static Double Virtual_Size = (RAM.RAM_Pysical_Size / 1024f / 1024f / 1024f);
-        public static string RAM_Manafacturer = RAM.RAM_Manufacturer;
-        public static string RAM_Speed = String.Format("{0} Mhz", RAM.RAM_Speed);
-        public static string RAM_Voltage = String.Format("{0} V", RAM.RAM_Voltage);
-        public static string RAM_Total_Physical_Size = String.Format("{0:F2} GB", Pysical_Size);
-        public static string RAM_Total_Virtual_Size = String.Format("{0:F2} GB", Virtual_Size);
+        public static double Pysical_Size = (RAM.RAM_Pysical_Size / 1024f / 1024f / 1024f);
+        public static double Virtual_Size = (RAM.RAM_Pysical_Size / 1024f / 1024f / 1024f);
+        public string RAM_Manafacturer = RAM.RAM_Manufacturer;
+        public string RAM_Speed = String.Format("{0} Mhz", RAM.RAM_Speed);
+        public string RAM_Voltage = String.Format("{0} V", RAM.RAM_Voltage);
+        public string RAM_Total_Physical_Size = String.Format("{0:F2} GB", Pysical_Size);
+        public string RAM_Total_Virtual_Size = String.Format("{0:F2} GB", Virtual_Size);
 
-        public static void SetRAM()
+        public void SetRAM()
         {
             Pysical_Size = (RAM.RAM_Pysical_Size / 1024f / 1024f / 1024f);
             Virtual_Size = (RAM.RAM_Pysical_Size / 1024f / 1024f / 1024f);

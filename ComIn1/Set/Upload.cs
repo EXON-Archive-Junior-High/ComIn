@@ -12,17 +12,19 @@ namespace ComputerInfo.Set
     {
         public static void UploadSetting()
         {
+            Untill untill = new Untill();
+
             //Define CPU
             CPU.GainCPU();
-            Untill.SetCPU();
+            untill.SetCPU();
 
             //Define GPU
             GPU.GainGPU();
-            Untill.SetGPU();
+
 
             //Define RAM
             RAM.GainRAM();
-            Untill.SetRAM();
+
 
             //Define Disk
             Disk.GainDisk();
