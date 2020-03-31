@@ -31,6 +31,7 @@
             this.CPU_Button = new System.Windows.Forms.Button();
             this.GPU_Button = new System.Windows.Forms.Button();
             this.RAM_Button = new System.Windows.Forms.Button();
+            this.Name_Label = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // CPU_Button
@@ -63,18 +64,33 @@
             this.RAM_Button.UseVisualStyleBackColor = true;
             this.RAM_Button.Click += new System.EventHandler(this.RAM_Button_Click);
             // 
+            // Name_Label
+            // 
+            this.Name_Label.AutoSize = true;
+            this.Name_Label.Font = new System.Drawing.Font("굴림", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.Name_Label.Location = new System.Drawing.Point(119, 12);
+            this.Name_Label.Name = "Name_Label";
+            this.Name_Label.Size = new System.Drawing.Size(84, 27);
+            this.Name_Label.TabIndex = 3;
+            this.Name_Label.Text = "Name";
+            this.Name_Label.Click += new System.EventHandler(this.CPU_Name_Button_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Name_Label);
             this.Controls.Add(this.RAM_Button);
             this.Controls.Add(this.GPU_Button);
             this.Controls.Add(this.CPU_Button);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -83,6 +99,7 @@
         private System.Windows.Forms.Button CPU_Button;
         private System.Windows.Forms.Button GPU_Button;
         private System.Windows.Forms.Button RAM_Button;
+        private System.Windows.Forms.Label Name_Label;
     }
 }
 

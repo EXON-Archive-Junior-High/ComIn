@@ -11,6 +11,7 @@ using ComputerInfo.WMI;
 using ComputerInfo.Set;
 using ComputerInfo.Define;
 using System.IO;
+using System.Diagnostics;
 
 namespace ComIn1
 {
@@ -25,14 +26,17 @@ namespace ComIn1
         {
             Upload.UploadSetting();
 
-            Console.WriteLine();
+
+            Type("CPU");
         }
 
-        private static void ButtonVisible(string buttonType, bool b)
+
+        private void TypeVisible(string Type, bool b)
         {
-            switch (buttonType) 
+            switch (Type) 
             {
                 case "CPU":
+                    Name_Label.Visible = b;
                     break;
 
                 case "GPU":
@@ -42,27 +46,49 @@ namespace ComIn1
                     break;
 
                 case "All":
+                    Name_Label.Visible = b;
                     break;
             }
 
         }
 
+        private void Type(string Type)
+        {
+            switch (Type)
+            {
+                case "CPU":
+                    Name_Label.Text = Untill.CPU_Name;
+                    break;
+
+                case "GPU":
+                    Name_Label.Text = Untill.GPU_Name;
+                    break;
+
+                case "RAM":
+                    Name_Label.Text = "RAM";
+                    break;
+
+            }
+        }
+
         private void CPU_Button_Click(object sender, EventArgs e)
         {
-            ButtonVisible("All", false);
-            ButtonVisible("CPU", true);
+            Type("CPU");
         }
 
         private void GPU_Button_Click(object sender, EventArgs e)
         {
-            ButtonVisible("All", false);
-            ButtonVisible("GPU", true);
+            Type("GPU");
         }
 
         private void RAM_Button_Click(object sender, EventArgs e)
         {
-            ButtonVisible("All", false);
-            ButtonVisible("RAM", true);
+            Type("RAM");
+        }
+
+        private void CPU_Name_Button_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

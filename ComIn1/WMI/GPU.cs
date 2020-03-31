@@ -12,6 +12,7 @@ namespace ComputerInfo.WMI
             {
                 try
                 {
+                    GPU_Name = wmi["Description"].ToString();
                     GPU_Adapter_Compatiability = wmi[WMIQuery.WMI_GPU_ADAPTER_COMPATIABILITY].ToString();
                     GPU_Adapter_RAM = wmi[WMIQuery.WMI_GPU_ADAPTER_RAM].ToString();
                     GPU_Caption = wmi[WMIQuery.WMI_GPU_CAPTION].ToString();
@@ -32,6 +33,8 @@ namespace ComputerInfo.WMI
         }
 
         //Company name
+        public static String GPU_Name { get; private set; }
+
         public static String GPU_Adapter_Compatiability { get; private set; }
 
         public static String GPU_Adapter_RAM { get; private set; }
