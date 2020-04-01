@@ -1,17 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using ComputerInfo.Set;
+using System;
 using System.Windows.Forms;
-using ComputerInfo.WMI;
-using ComputerInfo.Set;
-using ComputerInfo.Define;
-using System.IO;
-using System.Diagnostics;
 
 namespace ComIn1
 {
@@ -30,44 +19,28 @@ namespace ComIn1
             Type("CPU");
         }
 
-
-        private void TypeVisible(string Type, bool b)
-        {
-            switch (Type) 
-            {
-                case "CPU":
-                    Name_Label.Visible = b;
-                    break;
-
-                case "GPU":
-                    break;
-
-                case "RAM":
-                    break;
-
-                case "All":
-                    Name_Label.Visible = b;
-                    break;
-            }
-
-        }
-
         private void Type(string Type)
         {
             switch (Type)
             {
                 case "CPU":
+                    Type_Label.Text = "CPU";
                     Name_Label.Text = Untill.CPU_Name;
+                    Text1.Text = Untill.CPU_Current_Clock;
+                    Text2.Text = Untill.CPU_Core_Count + " Core";
+                    Text3.Text = Untill.CPU_Thread_Count + " Tread";
+                    Text4.Text = Untill.CPU_Voltage;
                     break;
 
                 case "GPU":
+                    Type_Label.Text = "GPU";
                     Name_Label.Text = Untill.GPU_Name;
                     break;
 
                 case "RAM":
+                    Type_Label.Text = "RAM";
                     Name_Label.Text = "RAM";
                     break;
-
             }
         }
 

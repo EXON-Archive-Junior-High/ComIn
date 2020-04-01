@@ -32,6 +32,11 @@
             this.GPU_Button = new System.Windows.Forms.Button();
             this.RAM_Button = new System.Windows.Forms.Button();
             this.Name_Label = new System.Windows.Forms.Label();
+            this.Type_Label = new System.Windows.Forms.Label();
+            this.Text1 = new System.Windows.Forms.Label();
+            this.Text2 = new System.Windows.Forms.Label();
+            this.Text3 = new System.Windows.Forms.Label();
+            this.Text4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // CPU_Button
@@ -67,19 +72,74 @@
             // Name_Label
             // 
             this.Name_Label.AutoSize = true;
-            this.Name_Label.Font = new System.Drawing.Font("굴림", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.Name_Label.Location = new System.Drawing.Point(119, 12);
+            this.Name_Label.Font = new System.Drawing.Font("굴림", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.Name_Label.Location = new System.Drawing.Point(189, 17);
             this.Name_Label.Name = "Name_Label";
-            this.Name_Label.Size = new System.Drawing.Size(84, 27);
+            this.Name_Label.Size = new System.Drawing.Size(58, 21);
             this.Name_Label.TabIndex = 3;
             this.Name_Label.Text = "Name";
             this.Name_Label.Click += new System.EventHandler(this.CPU_Name_Button_Click);
+            // 
+            // Type_Label
+            // 
+            this.Type_Label.AutoSize = true;
+            this.Type_Label.Font = new System.Drawing.Font("굴림", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.Type_Label.Location = new System.Drawing.Point(119, 12);
+            this.Type_Label.Name = "Type_Label";
+            this.Type_Label.Size = new System.Drawing.Size(73, 27);
+            this.Type_Label.TabIndex = 4;
+            this.Type_Label.Text = "Type";
+            // 
+            // Text1
+            // 
+            this.Text1.AutoSize = true;
+            this.Text1.Font = new System.Drawing.Font("굴림", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.Text1.Location = new System.Drawing.Point(122, 48);
+            this.Text1.Name = "Text1";
+            this.Text1.Size = new System.Drawing.Size(103, 19);
+            this.Text1.TabIndex = 5;
+            this.Text1.Text = "CPU_Speed";
+            // 
+            // Text2
+            // 
+            this.Text2.AutoSize = true;
+            this.Text2.Font = new System.Drawing.Font("굴림", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.Text2.Location = new System.Drawing.Point(122, 74);
+            this.Text2.Name = "Text2";
+            this.Text2.Size = new System.Drawing.Size(139, 19);
+            this.Text2.TabIndex = 6;
+            this.Text2.Text = "CPU_CoreCount";
+            // 
+            // Text3
+            // 
+            this.Text3.AutoSize = true;
+            this.Text3.Font = new System.Drawing.Font("굴림", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.Text3.Location = new System.Drawing.Point(122, 100);
+            this.Text3.Name = "Text3";
+            this.Text3.Size = new System.Drawing.Size(165, 19);
+            this.Text3.TabIndex = 7;
+            this.Text3.Text = "CPU_Thread_Count";
+            // 
+            // Text4
+            // 
+            this.Text4.AutoSize = true;
+            this.Text4.Font = new System.Drawing.Font("굴림", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.Text4.Location = new System.Drawing.Point(122, 126);
+            this.Text4.Name = "Text4";
+            this.Text4.Size = new System.Drawing.Size(112, 19);
+            this.Text4.TabIndex = 8;
+            this.Text4.Text = "CPU_Voltage";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Text4);
+            this.Controls.Add(this.Text3);
+            this.Controls.Add(this.Text2);
+            this.Controls.Add(this.Text1);
+            this.Controls.Add(this.Type_Label);
             this.Controls.Add(this.Name_Label);
             this.Controls.Add(this.RAM_Button);
             this.Controls.Add(this.GPU_Button);
@@ -100,6 +160,11 @@
         private System.Windows.Forms.Button GPU_Button;
         private System.Windows.Forms.Button RAM_Button;
         private System.Windows.Forms.Label Name_Label;
+        private System.Windows.Forms.Label Type_Label;
+        private System.Windows.Forms.Label Text1;
+        private System.Windows.Forms.Label Text2;
+        private System.Windows.Forms.Label Text3;
+        private System.Windows.Forms.Label Text4;
     }
 }
 
