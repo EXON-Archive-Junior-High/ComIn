@@ -1,5 +1,5 @@
 # ComIn
-<img src = "https://img.shields.io/badge/C%23-주로사용-green"> <br>
+<img src = "https://img.shields.io/badge/C%23-From-green"> <br>
 <b>아... 컴퓨터 사양 알고 싶은데 한 번에 다 찾아보는 프로그램은 없을까?</b> <br>
 여기 있습니다! 이리와서 구경하세요! <b>ComIn! </b> <br>
 
@@ -17,3 +17,4 @@ star 눌러주시면 이 프로젝트에 관심있다는 것으로 알고 프리
 ## 개발일지
 <br>
 
+ 
