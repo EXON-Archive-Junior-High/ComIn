@@ -43,9 +43,9 @@ namespace ComputerInfo.Set
             Untill.GPU_Caption = GPU.GPU_Caption;
             Untill.GPU_Video_Processor_Name = GPU.GPU_Video_Processor;
             Untill.GPU_RAM = String.Format("{0:F2} GB", (Convert.ToInt64(GPU.GPU_Adapter_RAM) / 1024f / 1024f / 1024f));
-            Untill.GPU_Current_Refresh_Rate = GPU.GPU_Current_Refresh_Rate + "hz";
-            Untill.GPU_Max_Refresh_Rate = GPU.GPU_Max_Refresh_Rate + "hz";
-            Untill.GPU_Min_Refresh_Rate = GPU.GPU_Min_Refresh_Rate + "hz";
+            Untill.GPU_Current_Refresh_Rate = GPU.GPU_Current_Refresh_Rate + " hz";
+            Untill.GPU_Max_Refresh_Rate = GPU.GPU_Max_Refresh_Rate + " hz";
+            Untill.GPU_Min_Refresh_Rate = GPU.GPU_Min_Refresh_Rate + " hz";
             Untill.GPU_Current_Resolution = GPU.GPU_Video_Mode_Description;
             Untill.GPU_Driver_Version = GPU.GPU_Driver_Version;
 
