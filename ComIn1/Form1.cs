@@ -87,5 +87,11 @@ namespace ComIn1
         {
 
         }
+
+        private void X_Button_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
     }
 }

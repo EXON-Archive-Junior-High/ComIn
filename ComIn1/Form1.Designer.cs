@@ -45,6 +45,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.Text6 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.X_Button = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // CPU_Button
@@ -218,11 +219,23 @@
             this.label6.TabIndex = 16;
             this.label6.Text = "label6";
             // 
+            // X_Button
+            // 
+            this.X_Button.Location = new System.Drawing.Point(769, 2);
+            this.X_Button.Name = "X_Button";
+            this.X_Button.Size = new System.Drawing.Size(28, 23);
+            this.X_Button.TabIndex = 17;
+            this.X_Button.Text = "X";
+            this.X_Button.UseMnemonic = false;
+            this.X_Button.UseVisualStyleBackColor = false;
+            this.X_Button.Click += new System.EventHandler(this.X_Button_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.X_Button);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.Text6);
             this.Controls.Add(this.label5);
@@ -240,6 +253,7 @@
             this.Controls.Add(this.RAM_Button);
             this.Controls.Add(this.GPU_Button);
             this.Controls.Add(this.CPU_Button);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form1";
@@ -269,6 +283,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label Text6;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button X_Button;
     }
 }
 
