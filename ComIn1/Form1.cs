@@ -47,23 +47,37 @@ namespace ComIn1
                     Name_Label.Text = Untill.GPU_Name;
 
                     Text1.Text = "Processor Name";
-                    Text2.Text = "RAM";
+                    Text2.Text = "Manufacturer";
                     Text3.Text = "Refresh Rate";
                     Text4.Text = "Max RefreshRate";
                     Text5.Text = "Min RefreshRate";
-                    Text6.Text = "Manufacturer";
+                    Text6.Text = "RAM";
 
                     label1.Text = ": " + Untill.GPU_Video_Processor_Name;
-                    label2.Text = ": " + Untill.GPU_RAM;
+                    label2.Text = ": " + Untill.GPU_Manufacturer;
                     label3.Text = ": " + Untill.GPU_Current_Refresh_Rate;
                     label4.Text = ": " + Untill.GPU_Max_Refresh_Rate;
                     label5.Text = ": " + Untill.GPU_Min_Refresh_Rate;
-                    label6.Text = ": " + Untill.GPU_Manufacturer;
+                    label6.Text = ": " + Untill.GPU_RAM;
                     break;
 
                 case "RAM":
                     Type_Label.Text = "RAM";
                     Name_Label.Text = "RAM";
+
+                    Text1.Text = "Speed";
+                    Text2.Text = "Manufacturer";
+                    Text3.Text = "Voltage";
+                    Text4.Text = "Physical Size";
+                    Text5.Text = "Virtual Size";
+                    Text6.Text = "";
+
+                    label1.Text = ": " + Untill.RAM_Speed;
+                    label2.Text = ": " + Untill.RAM_Manafacturer;
+                    label3.Text = ": " + Untill.RAM_Voltage;
+                    label4.Text = ": " + Untill.RAM_Total_Physical_Size;
+                    label5.Text = ": " + Untill.RAM_Total_Virtual_Size;
+                    label6.Text = "";
                     break;
             }
         }
@@ -86,12 +100,31 @@ namespace ComIn1
         private void CPU_Name_Button_Click(object sender, EventArgs e)
         {
 
-        }
+        } 
 
-        private void X_Button_Click(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+
         }
 
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

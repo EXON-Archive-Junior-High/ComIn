@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.CPU_Button = new System.Windows.Forms.Button();
             this.GPU_Button = new System.Windows.Forms.Button();
             this.RAM_Button = new System.Windows.Forms.Button();
@@ -45,7 +46,6 @@
             this.label5 = new System.Windows.Forms.Label();
             this.Text6 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.X_Button = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // CPU_Button
@@ -81,7 +81,9 @@
             // Name_Label
             // 
             this.Name_Label.AutoSize = true;
+            this.Name_Label.BackColor = System.Drawing.Color.Transparent;
             this.Name_Label.Font = new System.Drawing.Font("굴림", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.Name_Label.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.Name_Label.Location = new System.Drawing.Point(189, 17);
             this.Name_Label.Name = "Name_Label";
             this.Name_Label.Size = new System.Drawing.Size(58, 21);
@@ -92,7 +94,9 @@
             // Type_Label
             // 
             this.Type_Label.AutoSize = true;
+            this.Type_Label.BackColor = System.Drawing.Color.Transparent;
             this.Type_Label.Font = new System.Drawing.Font("굴림", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.Type_Label.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.Type_Label.Location = new System.Drawing.Point(119, 12);
             this.Type_Label.Name = "Type_Label";
             this.Type_Label.Size = new System.Drawing.Size(73, 27);
@@ -102,7 +106,9 @@
             // Text1
             // 
             this.Text1.AutoSize = true;
+            this.Text1.BackColor = System.Drawing.Color.Transparent;
             this.Text1.Font = new System.Drawing.Font("굴림", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.Text1.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.Text1.Location = new System.Drawing.Point(122, 48);
             this.Text1.Name = "Text1";
             this.Text1.Size = new System.Drawing.Size(54, 19);
@@ -112,7 +118,9 @@
             // Text2
             // 
             this.Text2.AutoSize = true;
+            this.Text2.BackColor = System.Drawing.Color.Transparent;
             this.Text2.Font = new System.Drawing.Font("굴림", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.Text2.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.Text2.Location = new System.Drawing.Point(122, 74);
             this.Text2.Name = "Text2";
             this.Text2.Size = new System.Drawing.Size(54, 19);
@@ -122,7 +130,9 @@
             // Text3
             // 
             this.Text3.AutoSize = true;
+            this.Text3.BackColor = System.Drawing.Color.Transparent;
             this.Text3.Font = new System.Drawing.Font("굴림", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.Text3.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.Text3.Location = new System.Drawing.Point(122, 100);
             this.Text3.Name = "Text3";
             this.Text3.Size = new System.Drawing.Size(54, 19);
@@ -132,7 +142,9 @@
             // Text4
             // 
             this.Text4.AutoSize = true;
+            this.Text4.BackColor = System.Drawing.Color.Transparent;
             this.Text4.Font = new System.Drawing.Font("굴림", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.Text4.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.Text4.Location = new System.Drawing.Point(122, 126);
             this.Text4.Name = "Text4";
             this.Text4.Size = new System.Drawing.Size(54, 19);
@@ -142,7 +154,9 @@
             // Text5
             // 
             this.Text5.AutoSize = true;
+            this.Text5.BackColor = System.Drawing.Color.Transparent;
             this.Text5.Font = new System.Drawing.Font("굴림", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.Text5.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.Text5.Location = new System.Drawing.Point(122, 152);
             this.Text5.Name = "Text5";
             this.Text5.Size = new System.Drawing.Size(54, 19);
@@ -152,57 +166,74 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("굴림", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label1.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.label1.Location = new System.Drawing.Point(264, 48);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(55, 19);
             this.label1.TabIndex = 10;
             this.label1.Text = "label1";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("굴림", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label2.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.label2.Location = new System.Drawing.Point(264, 74);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(55, 19);
             this.label2.TabIndex = 11;
             this.label2.Text = "label2";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("굴림", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label3.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.label3.Location = new System.Drawing.Point(264, 100);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(55, 19);
             this.label3.TabIndex = 12;
             this.label3.Text = "label3";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("굴림", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label4.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.label4.Location = new System.Drawing.Point(264, 126);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(55, 19);
             this.label4.TabIndex = 13;
             this.label4.Text = "label4";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("굴림", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label5.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.label5.Location = new System.Drawing.Point(264, 152);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(55, 19);
             this.label5.TabIndex = 14;
             this.label5.Text = "label5";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // Text6
             // 
             this.Text6.AutoSize = true;
+            this.Text6.BackColor = System.Drawing.Color.Transparent;
             this.Text6.Font = new System.Drawing.Font("굴림", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.Text6.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.Text6.Location = new System.Drawing.Point(122, 178);
             this.Text6.Name = "Text6";
             this.Text6.Size = new System.Drawing.Size(54, 19);
@@ -212,30 +243,22 @@
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("굴림", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label6.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.label6.Location = new System.Drawing.Point(264, 178);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(55, 19);
             this.label6.TabIndex = 16;
             this.label6.Text = "label6";
             // 
-            // X_Button
-            // 
-            this.X_Button.Location = new System.Drawing.Point(769, 2);
-            this.X_Button.Name = "X_Button";
-            this.X_Button.Size = new System.Drawing.Size(28, 23);
-            this.X_Button.TabIndex = 17;
-            this.X_Button.Text = "X";
-            this.X_Button.UseMnemonic = false;
-            this.X_Button.UseVisualStyleBackColor = false;
-            this.X_Button.Click += new System.EventHandler(this.X_Button_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Menu;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.X_Button);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.Text6);
             this.Controls.Add(this.label5);
@@ -253,11 +276,11 @@
             this.Controls.Add(this.RAM_Button);
             this.Controls.Add(this.GPU_Button);
             this.Controls.Add(this.CPU_Button);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "ComIn";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -283,7 +306,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label Text6;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button X_Button;
     }
 }
 
