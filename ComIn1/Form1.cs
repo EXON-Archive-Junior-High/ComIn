@@ -13,7 +13,7 @@ namespace ComIn1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            Upload.UploadSetting();
+            Upload.UploadSetting(); 
 
 
             Type("CPU");
