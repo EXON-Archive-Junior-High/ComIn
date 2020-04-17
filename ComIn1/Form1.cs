@@ -1,6 +1,7 @@
 ﻿using ComputerInfo.Set;
 using System;
 using System.Windows.Forms;
+using System.Drawing;
 
 namespace ComIn1
 {
@@ -13,8 +14,7 @@ namespace ComIn1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            Upload.UploadSetting(); 
-
+            Upload.UploadSetting();
 
             Type("CPU");
         }
