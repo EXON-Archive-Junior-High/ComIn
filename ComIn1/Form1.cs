@@ -20,7 +20,7 @@ namespace ComIn1
         }
 
         private void Type(string Type)
-        {
+        { 
             switch (Type)
             {
                 case "CPU":
