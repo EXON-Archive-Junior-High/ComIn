@@ -15,12 +15,10 @@ namespace ComIn1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            label8.BackColor = Color.Transparent;
-            label8.Parent = this;
-
             Upload.UploadSetting();
 
             Type("CPU");
+            Type("GPU");
         }
 
         private void Type(string Type)
@@ -45,24 +43,23 @@ namespace ComIn1
                     label14.Text += ": " + Untill.CPU_L3Cache_Size;
                     break;
 
-                //case "GPU":
-                //    Type_Label.Text = "GPU";
-                //    Name_Label.Text = Untill.GPU_Name;
+                case "GPU":
+                    label15.Text = Untill.GPU_Name;
 
-                //    Text1.Text = "Processor Name";
-                //    Text2.Text = "Manufacturer";
-                //    Text3.Text = "Refresh Rate";
-                //    Text4.Text = "Max RefreshRate";
-                //    Text5.Text = "Min RefreshRate";
-                //    Text6.Text = "RAM";
+                    label6.Text = "Processor Name";
+                    label5.Text = "Manufacturer";
+                    label4.Text = "Refresh Rate";
+                    label3.Text = "Max RefreshRate";
+                    label2.Text = "Min RefreshRate";
+                    label1.Text = "GPU RAM";
 
-                //    label1.Text = ": " + Untill.GPU_Video_Processor_Name;
-                //    label2.Text = ": " + Untill.GPU_Manufacturer;
-                //    label3.Text = ": " + Untill.GPU_Current_Refresh_Rate;
-                //    label4.Text = ": " + Untill.GPU_Max_Refresh_Rate;
-                //    label5.Text = ": " + Untill.GPU_Min_Refresh_Rate;
-                //    label6.Text = ": " + Untill.GPU_RAM;
-                //    break;
+                    label6.Text += ": " + Untill.GPU_Video_Processor_Name;
+                    label5.Text += ": " + Untill.GPU_Manufacturer;
+                    label4.Text += ": " + Untill.GPU_Current_Refresh_Rate;
+                    label3.Text += ": " + Untill.GPU_Max_Refresh_Rate;
+                    label2.Text += ": " + Untill.GPU_Min_Refresh_Rate;
+                    label1.Text += ": " + Untill.GPU_RAM;
+                    break;
 
                 //case "RAM":
                 //    Type_Label.Text = "RAM";
