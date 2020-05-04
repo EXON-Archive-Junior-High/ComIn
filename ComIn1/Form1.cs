@@ -19,6 +19,7 @@ namespace ComIn1
 
             Type("CPU");
             Type("GPU");
+            Type("RAM");
         }
 
         private void Type(string Type)
@@ -61,24 +62,21 @@ namespace ComIn1
                     label1.Text += ": " + Untill.GPU_RAM;
                     break;
 
-                //case "RAM":
-                //    Type_Label.Text = "RAM";
-                //    Name_Label.Text = "RAM";
+                case "RAM":
+                    label23.Text = "RAM";
 
-                //    Text1.Text = "Speed";
-                //    Text2.Text = "Manufacturer";
-                //    Text3.Text = "Voltage";
-                //    Text4.Text = "Physical Size";
-                //    Text5.Text = "Virtual Size";
-                //    Text6.Text = "";
+                    label21.Text = "Speed";
+                    label20.Text = "Manufacturer";
+                    label19.Text = "Voltage";
+                    label18.Text = "Physical Size";
+                    label17.Text = "Virtual Size";
 
-                //    label1.Text = ": " + Untill.RAM_Speed;
-                //    label2.Text = ": " + Untill.RAM_Manafacturer;
-                //    label3.Text = ": " + Untill.RAM_Voltage;
-                //    label4.Text = ": " + Untill.RAM_Total_Physical_Size;
-                //    label5.Text = ": " + Untill.RAM_Total_Virtual_Size;
-                //    label6.Text = "";
-                //    break;
+                    label21.Text += ": " + Untill.RAM_Speed;
+                    label20.Text += ": " + Untill.RAM_Manafacturer;
+                    label19.Text += ": " + Untill.RAM_Voltage;
+                    label18.Text += ": " + Untill.RAM_Total_Physical_Size;
+                    label17.Text += ": " + Untill.RAM_Total_Virtual_Size;
+                    break;
             }
         }
 
