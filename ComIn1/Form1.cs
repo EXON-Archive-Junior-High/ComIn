@@ -15,6 +15,9 @@ namespace ComIn1
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            label8.BackColor = Color.Transparent;
+            label8.Parent = this;
+
             Upload.UploadSetting();
 
             Type("CPU");
@@ -25,77 +28,61 @@ namespace ComIn1
             switch (Type)
             {
                 case "CPU":
-                    Type_Label.Text = "CPU";
-                    Name_Label.Text = Untill.CPU_Name;
+                    label8.Text = Untill.CPU_Name;
 
-                    Text1.Text = "Current Clock";
-                    Text2.Text = "Core Count";
-                    Text3.Text = "Thread Count";
-                    Text4.Text = "Voltage";
-                    Text5.Text = "L2Cache Size";
-                    Text6.Text = "L3Cache Size";
+                    label9.Text = "Current Clock";
+                    label10.Text = "Core Count";
+                    label11.Text = "Thread Count";
+                    label12.Text = "Voltage";
+                    label13.Text = "L2Cache Size";
+                    label14.Text = "L3Cache Size";
 
-                    label1.Text = ": " + Untill.CPU_Current_Clock;
-                    label2.Text = ": " + Untill.CPU_Core_Count + " Core";
-                    label3.Text = ": " + Untill.CPU_Thread_Count + " Tread";
-                    label4.Text = ": " + Untill.CPU_Voltage;
-                    label5.Text = ": " + Untill.CPU_L2Cache_Size;
-                    label6.Text = ": " + Untill.CPU_L3Cache_Size;
+                    label9.Text += ": " + Untill.CPU_Current_Clock;
+                    label10.Text += ": " + Untill.CPU_Core_Count + " Core";
+                    label11.Text += ": " + Untill.CPU_Thread_Count + " Tread";
+                    label12.Text += ": " + Untill.CPU_Voltage;
+                    label13.Text += ": " + Untill.CPU_L2Cache_Size;
+                    label14.Text += ": " + Untill.CPU_L3Cache_Size;
                     break;
 
-                case "GPU":
-                    Type_Label.Text = "GPU";
-                    Name_Label.Text = Untill.GPU_Name;
+                //case "GPU":
+                //    Type_Label.Text = "GPU";
+                //    Name_Label.Text = Untill.GPU_Name;
 
-                    Text1.Text = "Processor Name";
-                    Text2.Text = "Manufacturer";
-                    Text3.Text = "Refresh Rate";
-                    Text4.Text = "Max RefreshRate";
-                    Text5.Text = "Min RefreshRate";
-                    Text6.Text = "RAM";
+                //    Text1.Text = "Processor Name";
+                //    Text2.Text = "Manufacturer";
+                //    Text3.Text = "Refresh Rate";
+                //    Text4.Text = "Max RefreshRate";
+                //    Text5.Text = "Min RefreshRate";
+                //    Text6.Text = "RAM";
 
-                    label1.Text = ": " + Untill.GPU_Video_Processor_Name;
-                    label2.Text = ": " + Untill.GPU_Manufacturer;
-                    label3.Text = ": " + Untill.GPU_Current_Refresh_Rate;
-                    label4.Text = ": " + Untill.GPU_Max_Refresh_Rate;
-                    label5.Text = ": " + Untill.GPU_Min_Refresh_Rate;
-                    label6.Text = ": " + Untill.GPU_RAM;
-                    break;
+                //    label1.Text = ": " + Untill.GPU_Video_Processor_Name;
+                //    label2.Text = ": " + Untill.GPU_Manufacturer;
+                //    label3.Text = ": " + Untill.GPU_Current_Refresh_Rate;
+                //    label4.Text = ": " + Untill.GPU_Max_Refresh_Rate;
+                //    label5.Text = ": " + Untill.GPU_Min_Refresh_Rate;
+                //    label6.Text = ": " + Untill.GPU_RAM;
+                //    break;
 
-                case "RAM":
-                    Type_Label.Text = "RAM";
-                    Name_Label.Text = "RAM";
+                //case "RAM":
+                //    Type_Label.Text = "RAM";
+                //    Name_Label.Text = "RAM";
 
-                    Text1.Text = "Speed";
-                    Text2.Text = "Manufacturer";
-                    Text3.Text = "Voltage";
-                    Text4.Text = "Physical Size";
-                    Text5.Text = "Virtual Size";
-                    Text6.Text = "";
+                //    Text1.Text = "Speed";
+                //    Text2.Text = "Manufacturer";
+                //    Text3.Text = "Voltage";
+                //    Text4.Text = "Physical Size";
+                //    Text5.Text = "Virtual Size";
+                //    Text6.Text = "";
 
-                    label1.Text = ": " + Untill.RAM_Speed;
-                    label2.Text = ": " + Untill.RAM_Manafacturer;
-                    label3.Text = ": " + Untill.RAM_Voltage;
-                    label4.Text = ": " + Untill.RAM_Total_Physical_Size;
-                    label5.Text = ": " + Untill.RAM_Total_Virtual_Size;
-                    label6.Text = "";
-                    break;
+                //    label1.Text = ": " + Untill.RAM_Speed;
+                //    label2.Text = ": " + Untill.RAM_Manafacturer;
+                //    label3.Text = ": " + Untill.RAM_Voltage;
+                //    label4.Text = ": " + Untill.RAM_Total_Physical_Size;
+                //    label5.Text = ": " + Untill.RAM_Total_Virtual_Size;
+                //    label6.Text = "";
+                //    break;
             }
-        }
-
-        private void CPU_Button_Click(object sender, EventArgs e)
-        {
-            Type("CPU");
-        }
-
-        private void GPU_Button_Click(object sender, EventArgs e)
-        {
-            Type("GPU");
-        }
-
-        private void RAM_Button_Click(object sender, EventArgs e)
-        {
-            Type("RAM");
         }
 
         private void CPU_Name_Button_Click(object sender, EventArgs e)
