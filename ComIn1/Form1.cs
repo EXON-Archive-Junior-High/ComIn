@@ -25,6 +25,12 @@ namespace ComIn1
             GetValue();
             Console.WriteLine(cpuVal);
             Console.WriteLine(ramVal);
+
+            chart1.Series["Series1"].Points.Clear();
+
+
+            chart1.Series["Series1"].Points.Add(cpuVal);
+
             Type("CPU");
             Type("GPU");
             Type("RAM");
@@ -123,6 +129,11 @@ namespace ComIn1
         }
 
         private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void chart1_Click(object sender, EventArgs e)
         {
 
         }
