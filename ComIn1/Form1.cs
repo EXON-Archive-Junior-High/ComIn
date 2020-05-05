@@ -2,12 +2,16 @@
 using System;
 using System.Windows.Forms;
 using System.Drawing;
+using System.Diagnostics;
 
 namespace ComIn1
 {
     public partial class Form1 : Form
     {
-    
+        private PerformanceCounter cpuCounter, ramCounter;
+
+        int cpuVal = 0, ramVal = 0;
+
         public Form1()
         {
             InitializeComponent();
@@ -17,9 +21,32 @@ namespace ComIn1
         {
             Upload.UploadSetting();
 
+            InitPerformanceCounter();
+            GetValue();
+            Console.WriteLine(cpuVal);
+            Console.WriteLine(ramVal);
             Type("CPU");
             Type("GPU");
             Type("RAM");
+        }
+
+        private void InitPerformanceCounter()
+        {
+
+            cpuCounter = new PerformanceCounter("Processor", "% Processor Time", "_Total");
+            ramCounter = new PerformanceCounter("Memory", "Available MBytes");
+
+        }
+
+
+
+        private void GetValue()
+        {
+
+            cpuVal = (int)cpuCounter.NextValue();
+
+            ramVal = (int)ramCounter.NextValue();
+
         }
 
         private void Type(string Type)
