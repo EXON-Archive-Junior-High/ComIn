@@ -3,6 +3,7 @@ using System;
 using System.Windows.Forms;
 using System.Drawing;
 using System.Diagnostics;
+using System.Management;
 
 namespace ComIn1
 {
@@ -25,10 +26,10 @@ namespace ComIn1
             GetValue();
             Console.WriteLine(cpuVal);
             Console.WriteLine(ramVal);
-
+            GetTotalUsedMemory();
 
             chart1.Series["Series1"].Points.Clear();
-            chart1.Series["Series1"].Points.AddXY("RAM", 50);
+            chart1.Series["Series1"].Points.AddXY("RAM", );
             chart1.Series["Series1"].Points.AddXY("NO RAM", 50);
 
             Type("CPU");
@@ -36,6 +37,8 @@ namespace ComIn1
             Type("RAM");
         }
 
+        
+            
         private void InitPerformanceCounter()
         {
 

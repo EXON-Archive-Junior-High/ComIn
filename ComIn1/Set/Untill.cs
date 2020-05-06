@@ -38,6 +38,7 @@ namespace ComputerInfo.Set
         public static string RAM_Voltage;
         public static string RAM_Total_Physical_Size;
         public static string RAM_Total_Virtual_Size;
+        public static int RAM_free_physical_memeory;
 
         //public static DriveInfo Disk;
         //public static string Disk_Name = string.Format("{0}", Disk.Name);
