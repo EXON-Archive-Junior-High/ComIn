@@ -26,10 +26,10 @@ namespace ComIn1
             Console.WriteLine(cpuVal);
             Console.WriteLine(ramVal);
 
+
             chart1.Series["Series1"].Points.Clear();
-
-
-            chart1.Series["Series1"].Points.Add(cpuVal);
+            chart1.Series["Series1"].Points.AddXY("RAM", 50);
+            chart1.Series["Series1"].Points.AddXY("NO RAM", 50);
 
             Type("CPU");
             Type("GPU");
