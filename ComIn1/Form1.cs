@@ -22,16 +22,6 @@ namespace ComIn1
         {
             Upload.UploadSetting();
 
-            InitPerformanceCounter();
-            GetValue();
-            Console.WriteLine(cpuVal);
-            Console.WriteLine(ramVal);
-            GetTotalUsedMemory();
-
-            chart1.Series["Series1"].Points.Clear();
-            chart1.Series["Series1"].Points.AddXY("RAM", );
-            chart1.Series["Series1"].Points.AddXY("NO RAM", 50);
-
             Type("CPU");
             Type("GPU");
             Type("RAM");
