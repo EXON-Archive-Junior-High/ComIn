@@ -5,13 +5,14 @@ using System.Drawing;
 using System.Diagnostics;
 using System.Management;
 
+//Code By EXON
 namespace ComIn1
 {
     public partial class Form1 : Form
     {
         private PerformanceCounter cpuCounter, ramCounter;
 
-        int cpuVal = 0, ramVal = 0;
+        int cpuVal, ramVal = 0;
 
         public Form1()
         {
