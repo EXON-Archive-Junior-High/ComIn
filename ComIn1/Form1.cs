@@ -79,7 +79,7 @@ namespace ComIn1
                     label4.Text = "Refresh Rate";
                     label3.Text = "Max RefreshRate";
                     label2.Text = "Min RefreshRate";
-                    label1.Text = "GPU RAM";
+                    label1.Text = "RAM";
 
                     label6.Text += ": " + Untill.GPU_Video_Processor_Name;
                     label5.Text += ": " + Untill.GPU_Manufacturer;
