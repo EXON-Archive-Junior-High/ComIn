@@ -8,13 +8,13 @@ using System.Management;
 //Code By EXON
 namespace ComIn1
 {
-    public partial class Form1 : Form
+    public partial class ComIn : Form
     {
         private PerformanceCounter cpuCounter, ramCounter;
 
         int cpuVal, ramVal = 0;
 
-        public Form1()
+        public ComIn()
         {
             InitializeComponent();
         }
@@ -164,7 +164,7 @@ namespace ComIn1
                     label8.Text = "";
                     label7.Text = "ComIn";
 
-                    label9.Text = "ComIn 은 학생개발자 엑슨이 개발한 컴퓨터 사양 확인 \n프로그램입니다!";
+                    label9.Text = "ComIn 은 엑슨이 개발한 컴퓨터 사양 확인 \n프로그램입니다!";
                     label10.Text = "";
                     label11.Text = "";
                     label12.Text = "";
