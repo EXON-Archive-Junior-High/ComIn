@@ -10,10 +10,9 @@
 
 ## 설치
 
-1. [Setup](https://github.com/1-EXON/ComIn/tree/master/Setup) 폴더 이동
-2. 최신 버전 설치 (숫자가 클수록 최신버전)
-3. 파일 오른족 상단에 "Download" 버튼 클릭
-4. 압축을 푼 다음 "Setup.exe" 실행
+1. [Setup](https://github.com/1-EXON/ComIn/tree/master/ComInSetup/Release) 폴더 이동
+2. 파일 오른족 상단에 "Download" 버튼 클릭
+3. "Setup.exe" 실행
 
 ## 프리미엄
 ~~개발자가 원하는 기간 때~~ <br>
