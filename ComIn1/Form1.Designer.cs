@@ -168,7 +168,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(24, 474);
+            this.label1.Location = new System.Drawing.Point(23, 478);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(52, 23);
             this.label1.TabIndex = 34;
@@ -180,7 +180,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(24, 455);
+            this.label2.Location = new System.Drawing.Point(23, 458);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(52, 23);
             this.label2.TabIndex = 33;
@@ -192,7 +192,7 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(24, 436);
+            this.label3.Location = new System.Drawing.Point(23, 437);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(52, 23);
             this.label3.TabIndex = 32;
@@ -204,7 +204,7 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(24, 417);
+            this.label4.Location = new System.Drawing.Point(23, 417);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(52, 23);
             this.label4.TabIndex = 31;
@@ -216,7 +216,7 @@
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(24, 398);
+            this.label5.Location = new System.Drawing.Point(23, 398);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(52, 23);
             this.label5.TabIndex = 30;
@@ -228,7 +228,7 @@
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Black;
-            this.label6.Location = new System.Drawing.Point(24, 379);
+            this.label6.Location = new System.Drawing.Point(23, 377);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(52, 23);
             this.label6.TabIndex = 29;

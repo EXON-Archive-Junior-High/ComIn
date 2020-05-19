@@ -135,6 +135,7 @@ namespace ComIn1
                     label1.Visible = vib;
 
                     //RAM
+                    pictureBox3.Visible = vib;
                     label23.Visible = vib;
 
                     label21.Visible = vib;
@@ -144,6 +145,50 @@ namespace ComIn1
                     label17.Visible = vib;
                     break;
 
+            }
+        }
+
+        public void Go(string home)
+        {
+            switch (home)
+            {
+                case "home":
+                    TypeVisible("all", true);
+                    Type("CPU");
+                    Type("GPU");
+                    Type("RAM");
+                    break;
+
+                case "info":
+                    pictureBox3.Visible = false;
+                    label8.Text = "";
+                    label7.Text = "ComIn";
+
+                    label9.Text = "ComIn 은 학생개발자 엑슨이 개발한 컴퓨터 사양 확인 \n프로그램입니다!";
+                    label10.Text = "";
+                    label11.Text = "";
+                    label12.Text = "";
+                    label13.Text = "";
+                    label14.Text = "";
+
+                    label15.Text = "";
+                    label16.Text = "Developer";
+
+                    label6.Text = "평범한 디자이너 개발자 엑슨[EXON]입니다!";
+                    label5.Text = "Mail: exon.indiv@gmail.com";
+                    label4.Text = "Discord: EXON#0062";
+                    label3.Text = "";
+                    label2.Text = "";
+                    label1.Text = "";
+
+                    label23.Text = "";
+
+                    label21.Text = "";
+                    label20.Text = "";
+                    label19.Text = "";
+                    label18.Text = "";
+                    label17.Text = "";
+                    break;
             }
         }
 
@@ -179,12 +224,12 @@ namespace ComIn1
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
-            TypeVisible("all", true);
+            Go("home");
         }
 
         private void pictureBox6_Click(object sender, EventArgs e)
         {
-            TypeVisible("all", false);
+            Go("info");
 
         }
 
