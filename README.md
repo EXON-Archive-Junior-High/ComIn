@@ -10,7 +10,7 @@
 
 ## 설치
 
-1. [Setup](https://github.com/1-EXON/ComIn/blob/master/Setup/1.0.0.1.zip) 폴더 이동
+1. [Setup](https://github.com/1-EXON/ComIn/tree/master/Setup) 폴더 이동
 2. 최신 버전 설치 (숫자가 클수록 최신버전)
 3. 파일 오른족 상단에 "Download" 버튼 클릭
 4. 압축을 푼 다음 "Setup.exe" 실행
