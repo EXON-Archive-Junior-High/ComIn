@@ -1,0 +1,15 @@
+C:\Users\박시혁\Code\ComIn1\ComIn1\bin\Debug\ComIn.exe.config
+C:\Users\박시혁\Code\ComIn1\ComIn1\bin\Debug\ComIn.exe
+C:\Users\박시혁\Code\ComIn1\ComIn1\bin\Debug\ComIn.pdb
+C:\Users\박시혁\Code\ComIn1\ComIn1\obj\Debug\ComIn.csprojAssemblyReference.cache
+C:\Users\박시혁\Code\ComIn1\ComIn1\obj\Debug\ComIn.Properties.Resources.resources
+C:\Users\박시혁\Code\ComIn1\ComIn1\obj\Debug\ComIn.csproj.GenerateResource.cache
+C:\Users\박시혁\Code\ComIn1\ComIn1\obj\Debug\ComIn.csproj.CoreCompileInputs.cache
+C:\Users\박시혁\Code\ComIn1\ComIn1\obj\Debug\ComIn.exe
+C:\Users\박시혁\Code\ComIn1\ComIn1\obj\Debug\ComIn.pdb
+C:\Users\박시혁\Code\ComIn1\ComIn1\bin\Debug\ComIn.exe.manifest
+C:\Users\박시혁\Code\ComIn1\ComIn1\bin\Debug\ComIn.application
+C:\Users\박시혁\Code\ComIn1\ComIn1\obj\Debug\ComIn.TrustInfo.xml
+C:\Users\박시혁\Code\ComIn1\ComIn1\obj\Debug\ComIn.exe.manifest
+C:\Users\박시혁\Code\ComIn1\ComIn1\obj\Debug\ComIn.application
+C:\Users\박시혁\Code\ComIn1\ComIn1\obj\Debug\ComIn1.ComIn.resources

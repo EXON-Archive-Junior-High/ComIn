@@ -10,10 +10,7 @@ namespace ComIn1
 {
     public partial class ComIn : Form
     {
-        private PerformanceCounter cpuCounter, ramCounter;
 
-        int cpuVal, ramVal = 0;
-         
         public ComIn()
         {
             InitializeComponent();
@@ -28,26 +25,6 @@ namespace ComIn1
             Type("RAM");
         }
 
-        
-            
-        private void InitPerformanceCounter()
-        {
-
-            cpuCounter = new PerformanceCounter("Processor", "% Processor Time", "_Total");
-            ramCounter = new PerformanceCounter("Memory", "Available MBytes");
-
-        }
-
-
-
-        private void GetValue()
-        {
-
-            cpuVal = (int)cpuCounter.NextValue();
-
-            ramVal = (int)ramCounter.NextValue();
-
-        }
 
         private void Type(string Type)
         {

@@ -1,0 +1,10 @@
+C:\Users\박시혁\Code\ComIn1\ComIn1\obj\Debug\ComIn1.csprojAssemblyReference.cache
+C:\Users\박시혁\Code\ComIn1\ComIn1\obj\Debug\ComIn1.Form1.resources
+C:\Users\박시혁\Code\ComIn1\ComIn1\obj\Debug\ComIn1.Properties.Resources.resources
+C:\Users\박시혁\Code\ComIn1\ComIn1\obj\Debug\ComIn1.csproj.GenerateResource.cache
+C:\Users\박시혁\Code\ComIn1\ComIn1\obj\Debug\ComIn1.csproj.CoreCompileInputs.cache
+C:\Users\박시혁\Code\ComIn1\ComIn1\bin\Debug\ComIn1.exe.config
+C:\Users\박시혁\Code\ComIn1\ComIn1\bin\Debug\ComIn1.exe
+C:\Users\박시혁\Code\ComIn1\ComIn1\bin\Debug\ComIn1.pdb
+C:\Users\박시혁\Code\ComIn1\ComIn1\obj\Debug\ComIn1.exe
+C:\Users\박시혁\Code\ComIn1\ComIn1\obj\Debug\ComIn1.pdb
