@@ -107,6 +107,46 @@ namespace ComIn1
             }
         }
 
+        public void TypeVisible(string type, bool vib)
+        {
+            switch (type)
+            {
+                case "all":
+                    // CPU
+                    label8.Visible = vib;
+                    label7.Visible = vib;
+
+                    label9.Visible = vib;
+                    label10.Visible = vib;
+                    label11.Visible = vib;
+                    label12.Visible = vib;
+                    label13.Visible = vib;
+                    label14.Visible = vib;
+
+                    //GPU
+                    label15.Visible = vib;
+                    label16.Visible = vib;
+
+                    label6.Visible = vib;
+                    label5.Visible = vib;
+                    label4.Visible = vib;
+                    label3.Visible = vib;
+                    label2.Visible = vib;
+                    label1.Visible = vib;
+
+                    //RAM
+                    label23.Visible = vib;
+
+                    label21.Visible = vib;
+                    label20.Visible = vib;
+                    label19.Visible = vib;
+                    label18.Visible = vib;
+                    label17.Visible = vib;
+                    break;
+
+            }
+        }
+
         private void CPU_Name_Button_Click(object sender, EventArgs e)
         {
 
@@ -129,6 +169,22 @@ namespace ComIn1
 
         private void chart1_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            TypeVisible("all", true);
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            TypeVisible("all", false);
 
         }
 
