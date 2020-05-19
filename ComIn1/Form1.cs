@@ -13,7 +13,7 @@ namespace ComIn1
         private PerformanceCounter cpuCounter, ramCounter;
 
         int cpuVal, ramVal = 0;
-
+         
         public ComIn()
         {
             InitializeComponent();
