@@ -10,7 +10,7 @@ namespace ComIn1
 {
     public partial class ComIn : Form
     {
-
+         
         public ComIn()
         {
             InitializeComponent();
