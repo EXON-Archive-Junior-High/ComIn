@@ -11,7 +11,7 @@
 
 ## 설치
 
-1. [Setup](https://github.com/1-EXON/ComIn/blob/master/ComInSetup/Release/ComInSetup.msi) 폴더 이동
+1. [Setup File](https://github.com/1-EXON/ComIn/blob/master/ComInSetup/Release/ComInSetup.msi) 로 이동
 2. 파일 오른족 상단에 "Download" 버튼 클릭
 3. 다운로드 받은 파일 실행
 
