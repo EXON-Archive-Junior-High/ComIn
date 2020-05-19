@@ -10,10 +10,11 @@
 <img src="/Image/Preview2.png" width="500px">
 
 ## 설치
-
-1. [Setup File](https://github.com/1-EXON/ComIn/blob/master/ComInSetup/Release/ComInSetup.msi) 로 이동
-2. 파일 오른족 상단에 "Download" 버튼 클릭
+1. [여기에서](https://github.com/1-EXON/ComIn/releases) 버전 선택 (숫자가 높을 수록 최신 버전) 
+2. 버전 선택 후 그곳에 있는 <b>ComInSetup.msi</b> 클릭해 다운로드
 3. 다운로드 받은 파일 실행
+### 버전
+[v1.0.1](https://github.com/1-EXON/ComIn/releases/download/1.0.1/ComInSetup.msi) <br>
 
 ## 프리미엄
 <b>프리미엄 기능은 아직 개발되지 않았습니다</b> <br>
