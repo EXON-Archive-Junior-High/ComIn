@@ -13,3 +13,10 @@ C:\Users\박시혁\Code\ComIn1\ComIn1\obj\Debug\ComIn.TrustInfo.xml
 C:\Users\박시혁\Code\ComIn1\ComIn1\obj\Debug\ComIn.exe.manifest
 C:\Users\박시혁\Code\ComIn1\ComIn1\obj\Debug\ComIn.application
 C:\Users\박시혁\Code\ComIn1\ComIn1\obj\Debug\ComIn1.ComIn.resources
+C:\Users\박시혁\Code\ComIn1\ComIn1\bin\Debug\MySql.Data.dll
+C:\Users\박시혁\Code\ComIn1\ComIn1\bin\Debug\Google.Protobuf.dll
+C:\Users\박시혁\Code\ComIn1\ComIn1\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\박시혁\Code\ComIn1\ComIn1\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\박시혁\Code\ComIn1\ComIn1\bin\Debug\Renci.SshNet.dll
+C:\Users\박시혁\Code\ComIn1\ComIn1\bin\Debug\MySql.Data.xml
+C:\Users\박시혁\Code\ComIn1\ComIn1\obj\Debug\ComIn.csproj.CopyComplete

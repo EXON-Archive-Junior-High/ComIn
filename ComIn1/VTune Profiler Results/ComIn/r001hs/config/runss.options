@@ -1,0 +1,15 @@
+-r
+C:\Users\박시혁\Code\ComIn1\ComIn1\VTune Profiler Results\ComIn\r001hs
+--stack-stitching
+--data-limit-mb=1000
+--disk-space-limit=0
+--mrte-type=java,dotnet,python
+--itt-config=frame
+--itt-config=task,event,counter
+--stackwalk=offline
+--mrte-mode=auto
+--type=cpu:counters:nostack
+--type=cpu:stack
+--interval=10
+--
+C:\Users\박시혁\Code\ComIn1\ComIn1\bin\Debug\ComIn.exe

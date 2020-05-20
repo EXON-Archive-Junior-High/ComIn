@@ -16,6 +16,8 @@ namespace ComIn1
             InitializeComponent();
         }
 
+
+
         private void Form1_Load(object sender, EventArgs e)
         {
             Upload.UploadSetting();
@@ -24,6 +26,7 @@ namespace ComIn1
             Type("GPU");
             Type("RAM");
         }
+
 
 
         private void Type(string Type)
@@ -130,6 +133,8 @@ namespace ComIn1
             switch (home)
             {
                 case "home":
+                    label16.Text = "GPU";
+                    label7.Text = "CPU";
                     TypeVisible("all", true);
                     Type("CPU");
                     Type("GPU");

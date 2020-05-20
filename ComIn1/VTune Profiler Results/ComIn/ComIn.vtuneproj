@@ -47,9 +47,19 @@
   <searchDirs>
    <searchCategory>
     <category type="u8_t">1</category>
+    <searchDirectory>
+     <name>C:\Users\박시혁\Code\ComIn1</name>
+     <recursive type="bool">false</recursive>
+     <priority type="bool">true</priority>
+    </searchDirectory>
    </searchCategory>
    <searchCategory>
     <category type="u8_t">2</category>
+    <searchDirectory>
+     <name>C:\Users\박시혁\Code\ComIn1</name>
+     <recursive type="bool">false</recursive>
+     <priority type="bool">true</priority>
+    </searchDirectory>
    </searchCategory>
    <searchCategory>
     <category type="u8_t">3</category>
