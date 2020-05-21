@@ -15,8 +15,11 @@
 3. 다운로드 받은 파일 실행
 
 ### 버전
+[v1.0.4](https://github.com/1-EXON/ComIn/releases/download/v1.0.4/ComInSetup.msi) <br>
+[v1.0.3](https://github.com/1-EXON/ComIn/releases/download/v1.0.3/ComInSetup.msi) <br>
 [v1.0.2](https://github.com/1-EXON/ComIn/releases/download/v1.0.2/ComInSetup.msi) <br>
 [v1.0.1](https://github.com/1-EXON/ComIn/releases/download/1.0.1/ComInSetup.msi) <br>
+
 
 
 ## 프리미엄
