@@ -55,14 +55,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ComIn.exe" size="311184">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ComIn.exe" size="311696">
       <assemblyIdentity name="ComIn" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ENdMWRy2F9TPSRqn/MFr/gXt51/az1P5BdMqHPrHESk=</dsig:DigestValue>
+        <dsig:DigestValue>CHtKJRaA747Qxq0b9bk88F+Uq1/RdD/lSeWXTO6ef2w=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

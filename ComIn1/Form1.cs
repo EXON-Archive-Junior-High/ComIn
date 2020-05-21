@@ -156,10 +156,10 @@ namespace ComIn1
                     label15.Text = "";
                     label16.Text = "Developer";
 
-                    label6.Text = "평범한 디자이너 개발자 엑슨[EXON]입니다!";
+                    label6.Text = "EXON";
                     label5.Text = "Mail: exon.indiv@gmail.com";
                     label4.Text = "Discord: EXON#0062";
-                    label3.Text = "";
+                    label3.Text = "Github: https://github.com/1-EXON";
                     label2.Text = "";
                     label1.Text = "";
 
